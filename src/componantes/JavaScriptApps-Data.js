@@ -149,29 +149,3 @@ const JavascriptData = [
 ];
 
 export default JavascriptData;
-
-let myLinksOfMiniProjects = [
-  "https://osos0.github.io/01-Didital_Clock/",
-  "https://osos0.github.io/34-Weather-App/",
-  "https://osos0.github.io/32-local-storge-to-do-list/",
-  "https://osos0.github.io/35-Country-Guide-App/",
-  "https://osos0.github.io/08-Vedio-trailer-popup/",
-  "https://osos0.github.io/-09-Bulurred-Background-Popup/",
-  "https://osos0.github.io/13-Dark-Mode-Toggle/",
-  "https://osos0.github.io/23-Rotating-image-gallar/",
-  "https://osos0.github.io/11-Random-Photos/",
-  "https://osos0.github.io/10-Backgroung-Image-Scroll-Effect/",
-  "000",
-  "https://osos0.github.io/15-Tabes-Section-media/",
-  "https://osos0.github.io/21-Emoji-Rating/",
-  "https://osos0.github.io/11-Drum-Kits/",
-  "https://osos0.github.io/24-New-Year-countdown/",
-  "https://osos0.github.io/25-Random-Password-Generator/",
-  "https://osos0.github.io/26-Animated-search-Bar/",
-  "https://osos0.github.io/27-Social-Media-Selector-Menu/",
-  "https://osos0.github.io/30-Step-Progress-Bar/",
-  "0000",
-  "https://osos0.github.io/04-Real-time-character-counter/",
-  "https://osos0.github.io/06-Random-color-Generator/",
-  "https://osos0.github.io/36-Works-Filter/",
-];
