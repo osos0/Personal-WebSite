@@ -1,0 +1,129 @@
+@use "./Vars" as *;
+
+.leftNavbar {
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background-color: $dark2-per ;
+  background: linear-gradient(
+    transparent,
+    (rgb(0, 0, 0, 100%)),
+    transparent
+  ) !important;
+  color: $aquamarine;
+
+  // background-color: ;
+  .intoConOfleftNav {
+    // border: 1px solid green;
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      width: 100%;
+      //   min-height: 800px;
+      // border: 1px solid rgb(38, 129, 141);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 10px;
+
+      .phototFram {
+        width: 60%;
+        border-radius: 50%;
+        border: 5px solid $aquamarine;
+        overflow: hidden;
+        margin: auto;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      li {
+        min-width: 60%;
+        text-align: center;
+        margin: 10px;
+        h5 {
+          background-color: $soft-per;
+          margin: 0;
+          padding: 6px;
+          border-radius: 20px;
+          color: $aquamarine;
+        }
+      }
+
+      a {
+        color: $aquamarine;
+      }
+    }
+  }
+}
+
+// a {
+//   background-color: $soft-per;
+//   margin: 0;
+//   padding: 6px;
+//   border-radius: 20px;
+//   border: 1px solid $aquamarine;
+//   color: $aquamarine;
+//   padding: 10px;
+// }
+
+// Mobile Screens
+@media (max-width: 767px) {
+  .intoConOfleftNav {
+    height: 100%;
+  }
+  ul {
+    height: 100%;
+  }
+  .phototFram {
+    max-width: 80%;
+    height: auto;
+  }
+  h2 {
+    font-size: 25px;
+    width: 100%;
+  }
+  h5 {
+    font-size: 20px;
+    padding: 5px !important;
+  }
+  svg {
+    font-size: 25px;
+  }
+  li {
+    min-width: 90% !important;
+    margin: 1px auto !important;
+  }
+}
+// Small Screens
+@media (min-width: 768px) {
+  h2 {
+    font-size: 22px;
+    width: 100%;
+  }
+  h5 {
+    font-size: 15px;
+    padding: 6px !important;
+  }
+  svg {
+    font-size: 20px;
+  }
+  li {
+    min-width: 90% !important;
+    margin: 8px !important;
+  }
+}
+// Medium Screens
+@media (min-width: 992px) {
+}
+// large Screens
+@media (min-width: 1200px) {
+}

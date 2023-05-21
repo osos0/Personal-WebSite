@@ -1,0 +1,23 @@
+.footerCon {
+  padding: 10px 5px;
+  .logostylingFooter {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  margin: 0;
+  // background: linear-gradient(
+  //   (rgb(0, 0, 0, 40%)),
+  //   (transparent),
+  //   (rgb(0, 0, 0, 40%))
+  // );
+
+  text-align: center;
+  h1 {
+    text-align: center;
+  }
+  a {
+    color: white;
+    display: block;
+  }
+}

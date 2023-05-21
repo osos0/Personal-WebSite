@@ -1,0 +1,131 @@
+@use "./Vars" as *;
+
+* {
+  box-sizing: border-box;
+  // background-color: rgb(41, 41, 41);
+  // color: white;
+  font-family: cursive;
+  margin: 0;
+}
+
+body {
+  // background-color: rgb(17, 1, 26);
+  color: white; /* Optional: Set the text color to white for better visibility */
+}
+
+html {
+  min-height: 100vh !important;
+  scroll-behavior: smooth;
+}
+
+section {
+  // min-height: 100vh;
+  // border: $test;
+}
+
+h1 {
+  color: gold;
+  text-align: start;
+}
+
+select {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  font-size: 20px;
+  margin: 0 5px;
+  border: 1px solid $dark-per;
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+  border: 1px solid $aquamarine;
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto 5px;
+  background-color: $dark-per;
+  min-width: 90%;
+  color: $aquamarine;
+}
+
+textarea {
+  outline: none;
+  border: 1px solid $aquamarine;
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto 5px;
+  background-color: $dark-per;
+  min-width: 90%;
+  color: $aquamarine;
+}
+
+button {
+  background-color: red;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  color: white;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+.btnReverse {
+  background-color: $gold;
+  color: $dark-per !important;
+  border: 1px solid $gold;
+  border-radius: 20px;
+  padding: 2px 15px;
+  margin: 10px;
+  transition: 500ms;
+  width: 40%;
+  margin: auto;
+}
+
+.btnReverse:hover {
+  background-color: transparent;
+  color: $aquamarine !important;
+  border: 1px solid $aquamarine;
+}
+
+form {
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+ul {
+  // background-color: red;
+}
+h4 {
+  font-size: 23px;
+  padding: 5px;
+}
+
+p {
+  font-size: 14px;
+  padding: 5px;
+}
+
+svg {
+  color: $aquamarine;
+  font-size: 30px;
+  margin: auto 4px;
+}
+
+a {
+  // display: block;
+  margin: 10px 0;
+  color: black;
+  text-decoration: none;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.bgcolor {
+  background-color: $dark-per;
+  color: aliceblue;
+}

@@ -1,0 +1,51 @@
+@use "./Vars" as *;
+
+.FatherofporCon {
+  padding: 10px 5px;
+  min-height: 500px;
+  min-width: 100%;
+  background: linear-gradient(transparent, (black), transparent);
+  .portCon {
+    border: 1px solid $aquamarine;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    .projectImgCon {
+      border-radius: 15px;
+      min-width: 95%;
+      height: 300px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        min-height: 100%;
+        animation-name: worddancespan;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes worddancespan {
+        0% {
+          transform: translateY(0);
+          /* margin: 10px; */
+        }
+        50% {
+          transform: translateY(-70%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    }
+    h2 {
+      margin: 10px auto;
+    }
+  }
+  .twoLines {
+    background-color: $aquamarine;
+    color: $dark2-per;
+    min-width: 95%;
+    height: 300px;
+  }
+}

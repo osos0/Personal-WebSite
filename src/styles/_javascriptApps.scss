@@ -1,0 +1,47 @@
+@use "./Vars" as *;
+
+.FatherofporCon2 {
+  padding: 10px 5px;
+  min-height: 500px;
+  min-width: 100%;
+  background: linear-gradient(
+    (rgb(0, 0, 0, 90%)),
+    transparent,
+    (rgb(0, 0, 0, 90%))
+  );
+  .portCon2 {
+    border: 1px solid $aquamarine;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    .projectImgCon2 {
+      border-radius: 15px 15px 0 0;
+      min-width: 95%;
+      height: 300px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        min-height: 100%;
+      }
+    }
+    h2 {
+      margin: 10px auto;
+      background-color: $soft-per;
+      color: $aquamarine;
+      padding: 10px;
+    }
+  }
+
+  .btnCon2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btnfix {
+    width: 25% !important;
+    padding: 5px;
+    margin: auto 10px;
+  }
+}

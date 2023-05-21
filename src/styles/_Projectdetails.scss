@@ -1,0 +1,37 @@
+@use "./Vars" as *;
+
+.detailsCon {
+  h2 {
+    color: red;
+  }
+  margin: 30px auto;
+  .detailsleft {
+    img {
+      max-width: 100%;
+    }
+  }
+  .detailsRight {
+    .mapCon {
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      .lanCon {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 4px;
+
+        img {
+          border: 3px solid $aquamarine;
+          border-radius: 50%;
+          padding: 15px;
+          width: 80px;
+        }
+      }
+    }
+  }
+}

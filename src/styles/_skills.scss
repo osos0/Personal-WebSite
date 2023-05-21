@@ -1,0 +1,17 @@
+@use "./Vars" as *;
+
+.skillsCon {
+  padding: 10px 5px;
+  height: auto;
+  min-height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  // background: linear-gradient(transparent, (rgb(0, 0, 0, 90%)), transparent);
+  background: linear-gradient(
+    (rgb(0, 0, 0, 90%)),
+    transparent,
+    (rgb(0, 0, 0, 90%))
+  );
+}

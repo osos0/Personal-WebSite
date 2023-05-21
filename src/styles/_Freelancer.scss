@@ -1,0 +1,26 @@
+@use "./Vars" as *;
+
+.freebackImg {
+  border: 1px solid black;
+  max-width: 120%;
+  height: 420px;
+  background-image: url("../img/freelancer.jpg");
+  background-size: cover;
+  opacity: 50%;
+}
+
+.freebackImg2 {
+  //   border: 1px solid red;
+  min-width: 100%;
+  height: 420px;
+  background: linear-gradient(
+    (transparent),
+    (rgb(0, 0, 0, 40%)),
+    (transparent)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $dark-per;
+}
