@@ -7,7 +7,10 @@
   justify-content: space-evenly;
   align-items: center;
   background: linear-gradient(transparent, (rgb(0, 0, 0, 90%)), transparent);
-
+  position: relative;
+  .mainPicCon {
+    padding: 10px 5px;
+  }
   .goldh2 {
     color: $gold;
     display: inline;
@@ -20,5 +23,37 @@
   }
   .frontpr {
     color: $aquamarine;
+  }
+  .balon {
+    width: 80px;
+    position: absolute;
+    top: 10%;
+    right: 60%;
+    opacity: 50%;
+    z-index: 1;
+  }
+  .squareimg {
+    width: 80px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    opacity: 50%;
+    z-index: 1;
+  }
+  .twobalone {
+    width: 80px;
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    opacity: 50%;
+    z-index: 1;
+  }
+  .squareimg2 {
+    width: 80px;
+    position: absolute;
+    top: 80%;
+    right: 80%;
+    opacity: 50%;
+    z-index: 0;
   }
 }

@@ -2,3 +2,27 @@
   overflow: hidden;
   //   position: relative;
 }
+
+@media (max-width: 767px) {
+  .postioOfleftNavbar {
+    display: none;
+  }
+}
+// Small Screens
+@media (min-width: 768px) {
+  .navoRes {
+    display: none;
+  }
+}
+// Medium Screens
+@media (min-width: 992px) {
+  .navoRes {
+    display: none;
+  }
+}
+// large Screens
+@media (min-width: 1200px) {
+  .navoRes {
+    display: none;
+  }
+}

@@ -20,55 +20,55 @@ const Skills = () => {
             I have finished these items in the section and I am confident that I
             can work with them effectively.
           </p>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={Html} alt="sk" />
               <p>HTML</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={css} alt="sk" />
               <p>CSS</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={Js} alt="sk" />
               <p>Javascript</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={react} alt="sk" />
               <p>React Js</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={bootstrap} alt="sk" />
               <p>Bootstrap</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={gitHub} alt="sk" />
               <p>GitHub</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={git} alt="sk" />
               <p>Git</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={next} alt="sk" />
               <p>Next Js</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 sm-6 ">
+          <div className="col-lg-3 col-md-3 col-sm-6 ">
             <div>
               <img src={sass} alt="sk" />
               <p>Sass</p>

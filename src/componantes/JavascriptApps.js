@@ -15,7 +15,7 @@ const JavascriptApps = () => {
         <h1>Javascript Apps</h1>
         {ProjectArray.slice(0, CardLimit).map((pro, ind) => {
           return (
-            <div key={pro.id} className="col-lg-4 col-md-6 col-sm-12">
+            <div key={pro.id} className="col-lg-4 col-md-6 col-sm-6">
               <div className="portCon2">
                 <div className="projectImgCon2">
                   <img src={require(`../img/${pro.imag}`)} alt="proimg" />

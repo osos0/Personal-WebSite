@@ -1,6 +1,6 @@
 @use "./Vars" as *;
 
-.leftNavbar {
+.leftNavbar2 {
   position: fixed;
   height: 100vh;
   display: flex;
@@ -15,7 +15,7 @@
   color: $aquamarine;
 
   // background-color: ;
-  .intoConOfleftNav {
+  .intoConOfleftNav2 {
     // border: 1px solid green;
     width: 100%;
     min-height: 80%;
@@ -34,7 +34,7 @@
       justify-content: space-around;
       padding: 10px;
 
-      .phototFram {
+      .phototFram2 {
         width: 60%;
         border-radius: 50%;
         border: 5px solid $aquamarine;
@@ -77,18 +77,18 @@
 
 // Mobile Screens
 @media (max-width: 767px) {
-  .leftNavbar {
+  .leftNavbar2 {
     position: static;
     top: 0;
   }
 
-  .intoConOfleftNav {
+  .intoConOfleftNav2 {
     height: 100%;
   }
   ul {
     height: 100%;
   }
-  .phototFram {
+  .phototFram2 {
     max-width: 80%;
     height: auto;
   }
@@ -125,10 +125,4 @@
     min-width: 90% !important;
     margin: 8px !important;
   }
-}
-// Medium Screens
-@media (min-width: 992px) {
-}
-// large Screens
-@media (min-width: 1200px) {
 }

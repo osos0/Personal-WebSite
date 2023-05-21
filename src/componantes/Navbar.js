@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             {/* <img src={logo} alt="logo" className="logostyling" /> */}
-            <h5 className="d-inline text-white"> Movies Rated</h5>
+            <h5 className="d-inline text-white"> Ossama Magdy</h5>
           </Link>
           <button
             className="navbar-toggler"
@@ -36,27 +36,36 @@ const Navbar = () => {
                 <Link
                   className="nav-link licolor"
                   aria-current="page"
-                  to="/imdb"
+                  to="/about"
                 >
-                  IMDB
+                  About
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link licolor"
                   aria-current="page"
-                  to="/movies"
+                  to="/skills"
                 >
-                  Movies
+                  Skills
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link licolor licolor"
                   aria-current="page"
-                  to="/tv"
+                  to="/Portfolio"
                 >
-                  Series
+                  Portfolio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link licolor licolor"
+                  aria-current="page"
+                  to="/info"
+                >
+                  Contact Us
                 </Link>
               </li>
             </ul>

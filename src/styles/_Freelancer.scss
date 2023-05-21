@@ -6,7 +6,7 @@
   height: 420px;
   background-image: url("../img/freelancer.jpg");
   background-size: cover;
-  opacity: 50%;
+  opacity: 90%;
 }
 
 .freebackImg2 {
@@ -15,12 +15,13 @@
   height: 420px;
   background: linear-gradient(
     (transparent),
-    (rgb(0, 0, 0, 40%)),
+    (rgb(0, 0, 0, 60%)),
     (transparent)
   );
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: $dark-per;
+  color: $aquamarine;
+  text-align: center;
 }
