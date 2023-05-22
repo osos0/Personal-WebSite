@@ -114,6 +114,24 @@ const ProjectsData = [
     Lan: "English",
     Responsive: "All",
   },
+  {
+    id: 7,
+    imag: "008.jpeg",
+    name: "A very sample Ecommerce Website",
+    linko: "/",
+    tech: [
+      "HTML",
+      "CSS3",
+      "JavaScript",
+      "ReactJs",
+      "Sass",
+      "Bootstrap",
+      "Git",
+      "GitHub",
+    ],
+    Lan: "English",
+    Responsive: "All",
+  },
 ];
 
 export default ProjectsData;
