@@ -3,10 +3,10 @@ import phot from "../img/phot.jpg";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
-  faTwitter,
   faLinkedin,
   faGithub,
+  faWhatsapp,
+  faFacebookMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 
 const TopNavbar = () => {
@@ -59,17 +59,23 @@ const TopNavbar = () => {
           </li>
           <li>
             <div>
-              <Link>
-                <FontAwesomeIcon icon={faFacebook} />
+              <Link to="https://github.com/osos0" target="_blank">
+                <FontAwesomeIcon icon={faGithub} />
               </Link>
-              <Link>
-                <FontAwesomeIcon icon={faTwitter} />
-              </Link>
-              <Link>
+              <Link
+                to="https://www.linkedin.com/in/ossama-magdy-6b8a3b263/"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
               </Link>
-              <Link>
-                <FontAwesomeIcon icon={faGithub} />
+              <Link
+                to="https://api.whatsapp.com/send?phone=201280104685"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </Link>
+              <Link to="http://m.me/osama.magdy/" target="_blank">
+                <FontAwesomeIcon icon={faFacebookMessenger} />
               </Link>
             </div>
           </li>

@@ -2,6 +2,7 @@ import React from "react";
 import Email from "../img/email2.png";
 import whatsapp from "../img/whatsapp2.png";
 import messenger from "../img/messenger2.png";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -11,30 +12,38 @@ const Contact = () => {
         <hr />
         <div className="col-md-4 col-sm-12 mesconleft">
           <div className="mail mesconchild">
-            <div className="imgContactCon">
-              <img src={Email} alt="email" />
-            </div>
-            <h4>Email</h4>
-            <h5>osama_magdy0@yahoo.com</h5>
-            {/* <a href="mailto:osama_magdy0@yahoo.com" target="_blank">
+            <Link to="mailto:osama_magdy0@yahoo.com" target="_blank">
+              <div className="imgContactCon">
+                <img src={Email} alt="email" />
+              </div>
+              <h4>Email</h4>
+              <h5>osama_magdy0@yahoo.com</h5>
               Send a message
-            </a> */}
+            </Link>
           </div>
           <div className="whatsApp mesconchild">
-            <div className="imgContactCon">
-              <img src={whatsapp} alt="mes" />
-            </div>
-            <h4>WhatsApp</h4>
-            <h5>201280104685</h5>
-            {/* <a href="https://api.whatsapp.com/send?phone=201280104685" target="_blank"/>Send a message</a> */}
+            <Link
+              to="https://api.whatsapp.com/send?phone=201280104685"
+              target="_blank"
+            >
+              <div className="imgContactCon">
+                <img src={whatsapp} alt="mes" />
+              </div>{" "}
+              <h4>WhatsApp</h4>
+              <h5>201280104685</h5>
+              Send a message
+            </Link>
             {/* <!-- <a href="https://wa.me/201280104685?text=Hello,%20I%20am%20contacting%20you%20from%20my%20website." target="_blank">Send a message</a> --> */}
           </div>
           <div className="Messenger mesconchild">
-            <div className="imgContactCon">
-              <img src={messenger} alt="mes" />
-            </div>
-            <h4>Messenger</h4>
-            <h5>Ossama Magdy</h5>
+            <Link to="http://m.me/osama.magdy/" target="_blank">
+              <div className="imgContactCon">
+                <img src={messenger} alt="mes" />
+              </div>
+              <h4>Messenger</h4>
+              <h5>Ossama Magdy</h5>
+              Send a message
+            </Link>
             {/* <a href="http://m.me/osama.magdy/" target="_blank">
               Send a message
             </a> */}

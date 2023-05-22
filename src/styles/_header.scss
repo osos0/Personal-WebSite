@@ -31,7 +31,24 @@
     right: 60%;
     opacity: 50%;
     z-index: 1;
+    animation-name: imgo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
+
+  @keyframes imgo {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
   .squareimg {
     width: 80px;
     position: absolute;
@@ -39,7 +56,24 @@
     right: 20%;
     opacity: 50%;
     z-index: 1;
+    animation-name: imgo2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
+
+  @keyframes imgo2 {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
   .twobalone {
     width: 80px;
     position: absolute;
@@ -47,7 +81,24 @@
     right: 30%;
     opacity: 50%;
     z-index: 1;
+    animation-name: imgo3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
+
+  @keyframes imgo3 {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
   .squareimg2 {
     width: 80px;
     position: absolute;
@@ -55,5 +106,21 @@
     right: 80%;
     opacity: 50%;
     z-index: 0;
+    animation-name: imgo4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes imgo4 {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
   }
 }
