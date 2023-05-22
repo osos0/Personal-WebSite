@@ -4,6 +4,7 @@ import ballon from "../img/ballon.png";
 import squareimg from "../img/square-dots-orange.png";
 import twobalone from "../img/twobalone.png";
 import squareimg2 from "../img/squareimg.png";
+import cv from "../img/ossama_magdy_cv.pdf.pdf";
 
 const Header = () => {
   return (
@@ -25,7 +26,9 @@ const Header = () => {
             ensuring that my applications can stand the test of time."
           </p>
           <p className="frontpr">Frontend Developer</p>
-          <button className="btnReverse">Hire Me</button>
+          <a className="btnReverse" href={cv} download="ossama_magdy_cv.pdf">
+            Hire Me
+          </a>
         </div>
         <div className="col-lg-5 col-md-5 col-sm-12 mainPicCon">
           <img src={mainpic} alt="main" className="mainPic" />
